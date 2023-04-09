@@ -3,11 +3,11 @@
 // let a = 20;
 // alert(a);
 
-// let year = 2007;
-// alert(year);
+//  let year = 2007;
+// alert(year+'-  год создания первого iPhone');
 
 // let name = 'Брендан Эйх';
-// alert(name);
+// alert(name+'- имя создателя JS');
 
 // let a = 10;
 // let b = 2;
@@ -50,5 +50,5 @@
 // let info = prompt("Какую информацию хотите узнать о пользователе?", "name", "age", "isAdmin");
 // alert(user[info]);
 
-var name = prompt('Ваше имя?');
-alert('Привет,'+name+'!');
+// var name = prompt('Ваше имя?');
+// alert('Привет,'+name+'!');

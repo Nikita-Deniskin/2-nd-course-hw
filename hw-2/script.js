@@ -52,3 +52,5 @@
 
 // var name = prompt('Ваше имя?');
 // alert('Привет,'+name+'!');
+
+let spending = prompt("Сколько вы хотите потратить?");

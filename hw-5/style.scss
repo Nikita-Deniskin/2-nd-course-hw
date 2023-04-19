@@ -1,5 +1,6 @@
 body {
     font-family: "Montserrat", sans-serif;
+    background: #000915;
   }
   
   .center {
@@ -68,18 +69,24 @@ body {
     column-gap: 32px;
     padding-top: 128px;
     padding-bottom: 128px;
-    background: #000915;
   }
   
 .game{
   border-radius: 20px;
-   background-image: url(img/game1.jpg);
    width: 379px;
    height: 300px;
    grid-column: span 4;
    display: flex;
     flex-direction: column-reverse
-
+}
+.game-1{
+  background-image: url(img/game1.jpg);
+}
+.game-2{
+  background-image: url(img/game2.jpg);
+}
+.game-3{
+  background-image: url(img/game3.jpg);
 }
 .game__text{
   font-style: normal;

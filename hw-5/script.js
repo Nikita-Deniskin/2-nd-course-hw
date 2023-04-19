@@ -119,3 +119,22 @@
 //   console.log(circle2.getPerimeter());
 
 // Задание №8
+function season() {
+    let monthNumber = prompt('Напишите номер месяца');
+
+    if (monthNumber >=  1 && monthNumber <= 2 || monthNumber == 12) {
+        alert('Вьюги да сгега-это зима!');
+
+    } else if (monthNumber >=  3 && monthNumber <= 5) {
+        alert('Потекла вода, к нам пришла весна!');
+
+    } else if (monthNumber >=  6 && monthNumber <= 8) {
+        alert('Все позеленело, наступило лето');
+
+    } else if (monthNumber >=  9 && monthNumber <= 11) {
+        alert('Золотая осень');
+
+    } else if (monthNumber >=  13) {
+        alert('Такого по числу месяца не существует!');
+    }       
+}

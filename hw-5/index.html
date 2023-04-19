@@ -11,7 +11,6 @@
     <title>Homework</title>
 </head>
 <body>
-    <script src="script.js"></script>
     <div class="top center">
         <header class="header">
             <h1 class="top__text">Добро пожаловать на мой сайт !</h1>
@@ -26,13 +25,16 @@
         <div class="game game-2"><a class="game__text" href="#">Игра 2</a></div>
         <div class="game game-3"><a class="game__text" href="#">Игра 3</a></div>
     </div>
-    <div class="seasongame">
-        <div class="seasongame_left">
-            <h1>Времена года!</h1>
-            <p>Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-            <button class="header__button">Поехали! </button>
+    <div class="seasongame center">
+        <div class="seasongame__left">
+            <h1 class="season__text">Времена года!</h1>
+            <p class="season__title">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button onclick=" season();" class="header__button">Ирграть!</button>
+            <script src="script.js"></script>
+        </div>
+        <div class="seasongame__right">
+            <img class="season__img" src="img/seasongame.png" alt="">
         </div>
     </div>
-
 </body>
 </html>

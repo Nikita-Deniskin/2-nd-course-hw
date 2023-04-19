@@ -109,4 +109,52 @@ a {
   color: #FFFFFF;
   padding-left: 32px;
   padding-bottom: 32px;
+}
+
+.seasongame {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.seasongame__left {
+  grid-column: span 7;
+  padding-top: 278px;
+  padding-bottom: 48px;
+}
+.seasongame__right {
+  grid-column: span 4;
+  padding-top: 233px;
+}
+
+.season__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  grid-column: span 6;
+  margin-bottom: 32px;
+  margin-top: 0px;
+}
+
+.season__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6431372549);
+  grid-column: span 6;
+  margin-top: 0px;
+  width: 584px;
+  margin-bottom: 32px;
+}
+
+.season__img {
+  width: 485px;
+  height: 333px;
 }/*# sourceMappingURL=style.css.map */

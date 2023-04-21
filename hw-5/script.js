@@ -75,6 +75,7 @@
 //         return alert ("Одно или оба значения не являются числом")
 //     }
 // }
+
 // num(prompt(), prompt())
 
 // Задание №6
@@ -134,7 +135,7 @@ function season() {
     } else if (monthNumber >=  9 && monthNumber <= 11) {
         alert('Золотая осень');
 
-    } else if (monthNumber >=  13) {
+    } else if (monthNumber <=  0 || monthNumber >=  13) {
         alert('Такого по числу месяца не существует!');
     }       
 }
